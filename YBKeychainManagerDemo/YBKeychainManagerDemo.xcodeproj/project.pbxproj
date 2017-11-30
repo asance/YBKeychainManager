@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC5491AB1FCFA20300409215 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5491AA1FCFA20300409215 /* AppDelegate.m */; };
+		EC5491AE1FCFA20300409215 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5491AD1FCFA20300409215 /* ViewController.m */; };
+		EC5491B11FCFA20300409215 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5491AF1FCFA20300409215 /* Main.storyboard */; };
+		EC5491B31FCFA20400409215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5491B21FCFA20400409215 /* Assets.xcassets */; };
+		EC5491B61FCFA20400409215 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5491B41FCFA20400409215 /* LaunchScreen.storyboard */; };
+		EC5491B91FCFA20400409215 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5491B81FCFA20400409215 /* main.m */; };
+		EC5491C31FCFA20400409215 /* YBKeychainManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5491C21FCFA20400409215 /* YBKeychainManagerDemoTests.m */; };
+		EC5491D21FCFA22900409215 /* YBKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5491CF1FCFA22900409215 /* YBKeychain.m */; };
+		EC5491D31FCFA22900409215 /* YBKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5491D11FCFA22900409215 /* YBKeychainQuery.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC5491BF1FCFA20400409215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC54919E1FCFA20300409215 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC5491A51FCFA20300409215;
+			remoteInfo = YBKeychainManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC5491A61FCFA20300409215 /* YBKeychainManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBKeychainManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5491A91FCFA20300409215 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC5491AA1FCFA20300409215 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC5491AC1FCFA20300409215 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC5491AD1FCFA20300409215 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC5491B01FCFA20300409215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC5491B21FCFA20400409215 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC5491B51FCFA20400409215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC5491B71FCFA20400409215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5491B81FCFA20400409215 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC5491BE1FCFA20400409215 /* YBKeychainManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBKeychainManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5491C21FCFA20400409215 /* YBKeychainManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBKeychainManagerDemoTests.m; sourceTree = "<group>"; };
+		EC5491C41FCFA20400409215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5491CE1FCFA22900409215 /* YBKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBKeychain.h; sourceTree = "<group>"; };
+		EC5491CF1FCFA22900409215 /* YBKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBKeychain.m; sourceTree = "<group>"; };
+		EC5491D01FCFA22900409215 /* YBKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBKeychainQuery.h; sourceTree = "<group>"; };
+		EC5491D11FCFA22900409215 /* YBKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBKeychainQuery.m; sourceTree = "<group>"; };
+		EC5491D41FCFA23B00409215 /* YBKeychainManagerDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YBKeychainManagerDemo.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC5491A31FCFA20300409215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5491BB1FCFA20400409215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC54919D1FCFA20300409215 = {
+			isa = PBXGroup;
+			children = (
+				EC5491A81FCFA20300409215 /* YBKeychainManagerDemo */,
+				EC5491C11FCFA20400409215 /* YBKeychainManagerDemoTests */,
+				EC5491A71FCFA20300409215 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC5491A71FCFA20300409215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC5491A61FCFA20300409215 /* YBKeychainManagerDemo.app */,
+				EC5491BE1FCFA20400409215 /* YBKeychainManagerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC5491A81FCFA20300409215 /* YBKeychainManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EC5491D41FCFA23B00409215 /* YBKeychainManagerDemo.entitlements */,
+				EC5491CD1FCFA22900409215 /* YBKeychain */,
+				EC5491A91FCFA20300409215 /* AppDelegate.h */,
+				EC5491AA1FCFA20300409215 /* AppDelegate.m */,
+				EC5491AC1FCFA20300409215 /* ViewController.h */,
+				EC5491AD1FCFA20300409215 /* ViewController.m */,
+				EC5491AF1FCFA20300409215 /* Main.storyboard */,
+				EC5491B21FCFA20400409215 /* Assets.xcassets */,
+				EC5491B41FCFA20400409215 /* LaunchScreen.storyboard */,
+				EC5491B71FCFA20400409215 /* Info.plist */,
+				EC5491B81FCFA20400409215 /* main.m */,
+			);
+			path = YBKeychainManagerDemo;
+			sourceTree = "<group>";
+		};
+		EC5491C11FCFA20400409215 /* YBKeychainManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5491C21FCFA20400409215 /* YBKeychainManagerDemoTests.m */,
+				EC5491C41FCFA20400409215 /* Info.plist */,
+			);
+			path = YBKeychainManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		EC5491CD1FCFA22900409215 /* YBKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				EC5491CE1FCFA22900409215 /* YBKeychain.h */,
+				EC5491CF1FCFA22900409215 /* YBKeychain.m */,
+				EC5491D01FCFA22900409215 /* YBKeychainQuery.h */,
+				EC5491D11FCFA22900409215 /* YBKeychainQuery.m */,
+			);
+			path = YBKeychain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC5491A51FCFA20300409215 /* YBKeychainManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5491C71FCFA20400409215 /* Build configuration list for PBXNativeTarget "YBKeychainManagerDemo" */;
+			buildPhases = (
+				EC5491A21FCFA20300409215 /* Sources */,
+				EC5491A31FCFA20300409215 /* Frameworks */,
+				EC5491A41FCFA20300409215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YBKeychainManagerDemo;
+			productName = YBKeychainManagerDemo;
+			productReference = EC5491A61FCFA20300409215 /* YBKeychainManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC5491BD1FCFA20400409215 /* YBKeychainManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5491CA1FCFA20400409215 /* Build configuration list for PBXNativeTarget "YBKeychainManagerDemoTests" */;
+			buildPhases = (
+				EC5491BA1FCFA20400409215 /* Sources */,
+				EC5491BB1FCFA20400409215 /* Frameworks */,
+				EC5491BC1FCFA20400409215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5491C01FCFA20400409215 /* PBXTargetDependency */,
+			);
+			name = YBKeychainManagerDemoTests;
+			productName = YBKeychainManagerDemoTests;
+			productReference = EC5491BE1FCFA20400409215 /* YBKeychainManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC54919E1FCFA20300409215 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = asance;
+				TargetAttributes = {
+					EC5491A51FCFA20300409215 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+					EC5491BD1FCFA20400409215 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC5491A51FCFA20300409215;
+					};
+				};
+			};
+			buildConfigurationList = EC5491A11FCFA20300409215 /* Build configuration list for PBXProject "YBKeychainManagerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC54919D1FCFA20300409215;
+			productRefGroup = EC5491A71FCFA20300409215 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC5491A51FCFA20300409215 /* YBKeychainManagerDemo */,
+				EC5491BD1FCFA20400409215 /* YBKeychainManagerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC5491A41FCFA20300409215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5491B61FCFA20400409215 /* LaunchScreen.storyboard in Resources */,
+				EC5491B31FCFA20400409215 /* Assets.xcassets in Resources */,
+				EC5491B11FCFA20300409215 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5491BC1FCFA20400409215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC5491A21FCFA20300409215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5491D31FCFA22900409215 /* YBKeychainQuery.m in Sources */,
+				EC5491AE1FCFA20300409215 /* ViewController.m in Sources */,
+				EC5491B91FCFA20400409215 /* main.m in Sources */,
+				EC5491D21FCFA22900409215 /* YBKeychain.m in Sources */,
+				EC5491AB1FCFA20300409215 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5491BA1FCFA20400409215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5491C31FCFA20400409215 /* YBKeychainManagerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC5491C01FCFA20400409215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC5491A51FCFA20300409215 /* YBKeychainManagerDemo */;
+			targetProxy = EC5491BF1FCFA20400409215 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC5491AF1FCFA20300409215 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5491B01FCFA20300409215 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC5491B41FCFA20400409215 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5491B51FCFA20400409215 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC5491C51FCFA20400409215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC5491C61FCFA20400409215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC5491C81FCFA20400409215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NLQUF9KEG2;
+				INFOPLIST_FILE = YBKeychainManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asance.YBKeychainManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC5491C91FCFA20400409215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NLQUF9KEG2;
+				INFOPLIST_FILE = YBKeychainManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asance.YBKeychainManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC5491CB1FCFA20400409215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NLQUF9KEG2;
+				INFOPLIST_FILE = YBKeychainManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asance.YBKeychainManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBKeychainManagerDemo.app/YBKeychainManagerDemo";
+			};
+			name = Debug;
+		};
+		EC5491CC1FCFA20400409215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NLQUF9KEG2;
+				INFOPLIST_FILE = YBKeychainManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asance.YBKeychainManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBKeychainManagerDemo.app/YBKeychainManagerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC5491A11FCFA20300409215 /* Build configuration list for PBXProject "YBKeychainManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5491C51FCFA20400409215 /* Debug */,
+				EC5491C61FCFA20400409215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5491C71FCFA20400409215 /* Build configuration list for PBXNativeTarget "YBKeychainManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5491C81FCFA20400409215 /* Debug */,
+				EC5491C91FCFA20400409215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5491CA1FCFA20400409215 /* Build configuration list for PBXNativeTarget "YBKeychainManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5491CB1FCFA20400409215 /* Debug */,
+				EC5491CC1FCFA20400409215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC54919E1FCFA20300409215 /* Project object */;
+}
